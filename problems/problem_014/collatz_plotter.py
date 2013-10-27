@@ -39,8 +39,6 @@ def steps_in_range(exclusive_end, context):
 		return number_steps_list
 
 def plotter():
-	#hugeasslogfile = open('collatz_number_steps.txt')
-	#data = literal_eval(hugeasslogfile.read())
 
 	data = steps_in_range(100000001,0)
 
